@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
 
@@ -71,7 +72,7 @@ router.get('/director_id', (req, res, next) => {
   const promise = Director.aggregate([
     {
       $match: {
-        '_id': req.params.director_id
+        '_id': mongoose.Types.ObjectId(req.params.director_id)
       }
     },
     {
