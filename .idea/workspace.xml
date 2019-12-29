@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e316c7a-9a78-4b71-ba62-f385ba20cea9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/Director.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/director.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/director.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/director.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/movie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +18,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>var</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>const</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,11 +73,17 @@
       <workItem from="1577383137828" duration="4003000" />
       <workItem from="1577388455619" duration="449000" />
       <workItem from="1577389159979" duration="1824000" />
-      <workItem from="1577547628577" duration="8123000" />
+      <workItem from="1577547628577" duration="11833000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577642264977">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1577642264977" />
   </component>
 </project>

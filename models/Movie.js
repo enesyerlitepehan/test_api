@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const MovieSchema = new Schema({
-    directory_id: Schema.Types.ObjectId,
+    director_id: Schema.Types.ObjectId,
     title: {
         type: String,
         required: true
@@ -14,7 +14,7 @@ const MovieSchema = new Schema({
     createAt: {
         type: Date,
         default: Date.now
-    }
+    },
 });
 
 module.exports = mongoose.model('movie', MovieSchema);
