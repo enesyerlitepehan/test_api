@@ -101,9 +101,6 @@ router.get('/between/:start_year/:end_year', (req, res) => {
         year: {"$gte": parseInt(start_year), "$lte": parseInt(end_year)}
       }
   );
-
-
-
 });
 
 
