@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e316c7a-9a78-4b71-ba62-f385ba20cea9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/models/Director.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Director.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -36,8 +40,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Enes\WebstormProjects\test_api\routes" />
       <recent name="C:\Users\Enes\WebstormProjects\test_api\models" />
+      <recent name="C:\Users\Enes\WebstormProjects\test_api\routes" />
       <recent name="C:\Users\Enes\WebstormProjects\test_api\helper" />
     </key>
   </component>
@@ -70,7 +74,8 @@
       <workItem from="1577383137828" duration="4003000" />
       <workItem from="1577388455619" duration="449000" />
       <workItem from="1577389159979" duration="1824000" />
-      <workItem from="1577547628577" duration="16154000" />
+      <workItem from="1577547628577" duration="17132000" />
+      <workItem from="1577728772103" duration="3212000" />
     </task>
     <servers />
   </component>
