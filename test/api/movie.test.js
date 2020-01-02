@@ -81,4 +81,33 @@ describe('Movies tests', () => {
                 });
         });
     });
+
+    describe('/PUT/:director_id movie', () => {
+        it('it should UPDATE a given by id', (done) => {
+            const movie = {
+                title: '93creative',
+                director_id: '5e08e8e022914f4684f284b5',
+                category: 'Suç',
+                country: 'Fransa',
+                year: 2050,
+                imdb_score: 8
+            };
+            chai.request(server)
+                .put('/api/movies/' + movieId)
+                .send(movie)
+                .set('x-access-token', token)
+                .end((err, res) => {
+                    //console.log(res.body);
+                    res.should.have.status(200);
+                    res.body.should.be.a('object');
+                    res.body.should.have.property('title').eql(movie.title);
+                    res.body.should.have.property('director_id').eql(movie.director_id);
+                    res.body.should.have.property('category').eql(movie.category);
+                    res.body.should.have.property('country').eql(movie.country);
+                    res.body.should.have.property('year').eql(movie.year);
+                    res.body.should.have.property('imdb_score').eql(movie.imdb_score);
+                    done();
+                })
+        });
+    });
 });
