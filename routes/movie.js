@@ -70,24 +70,17 @@ router.put('/:movie_id', (req, res) => {
   })
 });
 
-router.delete('/:movie_id', (req, res) => {
-  const promise = Movie.findByIdAndRemove(
-      req.params.movie_id,
-      req.body,
-      {
-        new: true
-      }
-  );
-
+router.delete('/:movie_id', (req, res, next) => {
+  const promise = Movie.findByIdAndRemove(req.params.movie_id);
 
   promise.then((movie) => {
-    if(!movie)
-      next({message: 'The movie was not found', code: 99});
+    if (!movie)
+      next({ message: 'The movie was not found.', code: 99 });
 
-    res.json(movie);
+    res.json({ status: 1 });
   }).catch((err) => {
     res.json(err);
-  })
+  });
 });
 
 router.post('/', (req, res, next) => {
